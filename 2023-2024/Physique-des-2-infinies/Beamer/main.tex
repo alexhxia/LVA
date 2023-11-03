@@ -1,0 +1,530 @@
+\documentclass[handout,8pt]{beamer} % handout : désactive les pauses
+
+\usetheme[compress]{Dresden}
+%\setbeamertemplate{page number in head/foot}[framenumber]
+\addtobeamertemplate{navigation symbols}{}{ 
+	\hspace{1em}    
+	\usebeamerfont{footline}%
+    \insertframenumber / \inserttotalframenumber 
+}
+    
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{3d}
+
+\uselanguage{French}
+
+\languagepath{French}
+
+
+
+%%%%%%%%%%%%%%%%%%%% Page de garde %%%%%%%%%%%%%%%%%%%%
+
+\title{La Physique des 2 Infinis}
+\author[A. Hocine]{Alexia HOCINE\\ \textit{Physicienne subatomique \& Développeuse}}
+
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+%\logo{} 
+
+\institute[LVA]{Les Vendredis de l'Astronomie} 
+
+\date[2023]{Vendredi 1\ier\ Décembre 2023} 
+
+%%%%%%%%%%%%%%%%%%%% Environnement %%%%%%%%%%%%%%%%%%%%
+
+% definition
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%% Page de garde %%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%
+
+% Problématiques
+\begin{frame}{Introduction}{Objectifs de cette conférence}
+	\begin{center}
+		\begin{Large}
+			De quoi est constituée l'Univers ?
+		\end{Large}
+	\end{center}
+	
+	\begin{enumerate}
+		\pause
+		\item Quelles sont les constituants élémentaires ? Quelles sont leurs interactions ?
+		\pause
+		\item Quand ? Où ? Comment se sont-elles formées ?
+		\pause
+		\item Les connaissont-toustes ? Si non comment le sait-on ?
+	\end{enumerate}
+\end{frame}
+
+% Plan général
+\begin{frame}{Introduction}{Sommaire}
+	\begin{center}
+		\begin{Large}
+			\textbf{La Physique des 2 Infinis}
+		\end{Large}
+	\end{center}
+
+	\tableofcontents[hideallsubsections] % pausesections
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% L'infiniment petit %%%%%%%%%%%%%%%%%%%%
+
+\section{Vers l’infiniment petit}
+\begin{frame}{Vers l’infiniment petit}{Sommaire}
+	\begin{center}
+		\begin{Large}
+			\textbf{La Physique des 2 Infinis}
+		\end{Large}
+	\end{center}
+    \tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\subsection{La Matière}
+\begin{frame}{Qu'est-ce que la Matière ?}
+
+\begin{definition}[La Matière \cite{matter}]
+	\begin{itemize}
+		\item ce qui compose tout corps,
+		\item objet qui occupe de l'espace et qui ont une masse. 
+	\end{itemize}
+	Réciproquement, tout ce qui a une masse est de la matière.
+\end{definition}
+	
+	\pause
+	\begin{center}
+		\textbf{De quoi est composé la matière ?}
+	\end{center}
+\end{frame}
+
+\subsection{L’atome}
+\begin{frame}{De quoi est composée la Matière ?}
+
+\begin{columns}
+	\begin{column}{0.7\textwidth}
+	
+		\begin{block}{Intuition de Démocrite (460-370 avant J.-C.)\cite{democrite}}
+			La matière est composée d'objets élémentaires \textit{indivisibles}. 
+		\end{block}
+		\pause
+
+		\begin{block}{Aristote, Nouveau Testament, ... }
+			\begin{itemize}
+				\item Nommé "\textbf{atome}" (partie de matière indivisible)
+			\end{itemize}
+		\end{block}
+
+		\begin{definition}[L'Atome\cite{atom}]
+			\begin{itemize}
+				\item Petit corps
+				\item La plus petite partie d'un corps simple pouvant se combiner chimiquement avec un autre. 
+				\item Les constituants élémentaires de toutes les substances solides, liquides ou gazeuses.
+			\end{itemize}
+		\end{definition}
+
+	\end{column}
+	
+	\begin{column}{0.25\textwidth}
+		\begin{figure}
+			\center
+			\begin{tikzpicture}[scale=0.5]
+				\shade[ball color = gray!40, opacity = 0.4] (0,0) circle (2cm);
+  				\draw (0,0) circle (2cm);
+  				\draw (-2,0) arc (180:360:2 and 0.6);
+  				\draw[dashed] (2,0) arc (0:180:2 and 0.6);
+			\end{tikzpicture}
+			\caption{1\iere\ vision de l'atome}
+		\end{figure}
+		
+		\begin{figure}
+			\begin{tikzpicture}[scale=0.5]
+				\shade[ball color = red!80, opacity = 0.4] (0,0) circle (1cm);
+  				\draw (0,0) circle (1cm);
+  				
+  				\shade[ball color = gray!80, opacity = 0.4] (1.7,-1.7) circle (0.5cm);
+  				\draw (1.7,-1.7) circle (0.5cm);
+  				%\draw[dashed] (0,0) -- (2,-2);
+  				\draw (0.7,-0.7) -- (1.3,-1.3);
+  				
+  				\shade[ball color = gray!80, opacity = 0.4] (-1.7,-1.7) circle (0.5cm);
+  				\draw (-1.7,-1.7) circle (0.5cm);
+				\draw(-0.7,-0.7) -- (-1.3,-1.3);
+			\end{tikzpicture}
+			\caption{Représentation d'une molécule d'eau}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\subsubsection{L'électron}
+\begin{frame}{Le modèle atomique de Thomson}
+
+	\begin{columns}
+		\begin{column}{0.7\textwidth}
+		
+			\begin{block}{Historique}
+				\begin{description}
+					\item[1838-1851] Prédiction de l'électron par Richard Laming 
+					% dans une série d'article
+					\item[1897] Découverte de l'électron par Joseph John Thomson
+				\end{description}
+			\end{block}
+
+			\begin{block}{Propriétés}
+				\begin{description}
+					\item[1838-1851] Prédiction de l'électron par Richard Laming 
+					% dans une série d'article
+					\item[1897] Découverte de l'électron par Joseph John Thomson
+				\end{description}
+			\end{block}
+
+			\begin{block}{Modèle atomique de Thomson}
+				\begin{description}
+					\item[1904] L'atome composé de charges positives et de particules négatives.
+				\end{description}
+			\end{block}
+
+		\end{column}
+		\begin{column}{0.25\textwidth}
+		
+			\begin{figure}
+				\center
+				\begin{tikzpicture}[scale=0.4]
+					\def\r1{4};
+					\shade[ball color = red, opacity = 0.5] (0,0) circle (\r1);
+  					\draw (0,0) circle (\r1);
+  					\draw (-\r1,0) arc (180:360:\r1 and 0.6);
+  					\draw[dashed] (\r1,0) arc (0:180:\r1 and 0.6);
+  					\filldraw[red,  opacity = 0.5] (\r1-1,1) -- (-\r1+1,1) -- (-\r1+1,-1) -- (\r1-1,-1) -- (\r1-1,1);
+  					\filldraw[red,  opacity = 0.5] (1,\r1-1) -- (1,-\r1+1) -- (-1,-\r1+1) -- (-1,\r1-1) -- (1,\r1-1);
+  					
+  					\foreach \x\y in {-2/1, -1/2, 0.5/0.5, 1.5/1.5, -1.5/-1.5, -0.5/-0.5, 2/-1, 1/-2} {
+        					\draw (\x,\y) circle (0.2cm);
+        					\node at (\x,\y) {-};
+      				}
+				\end{tikzpicture}
+				\caption{Vision de l'atome de Thomson ou "plum pudding"}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{L'électron}
+
+	\begin{columns}
+		\begin{column}{0.7\textwidth}
+		
+			\begin{block}{Historique}
+				\begin{description}
+					\item[1838-1851] Prédiction de l'électron par Richard Laming 
+					% dans une série d'article
+					\item[1897] Découverte de l'électron par Joseph John Thomson
+				\end{description}
+			\end{block}
+
+			\begin{block}{Propriétés}
+				\begin{description}
+					\item[1838-1851] Prédiction de l'électron par Richard Laming 
+					% dans une série d'article
+					\item[1897] Découverte de l'électron par Joseph John Thomson
+				\end{description}
+			\end{block}
+
+		\end{column}
+		\begin{column}{0.25\textwidth}
+			
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\subsubsection{Le noyau}
+\begin{frame}{Modèle de Rutherford}
+
+	\begin{block}{L'expérience de Rutherford}
+%		\begin{columns}
+%			\begin{column}
+%			htgrgf
+%			\end{column}
+%			\begin{column}
+%			hgvfgfgr
+%			\end{column}
+%		\end{columns}
+	\end{block}
+
+	\begin{block}{Conclusion}
+		L'atome est constitué principalement de vide.
+	\end{block}
+
+\end{frame}
+
+\subsubsection{Les éléments}
+\begin{frame}{Les différents atomes}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{img/Tableau_périodique_des_éléments.png} 
+		\caption{Tableau de Mendeleïev de 2016 avec 118 éléments\cite{element}}
+		\label{fig:mendeleiev}
+	\end{figure}
+\end{frame}
+
+\subsubsection{La représentation}
+\begin{frame}{L'évolution de la représentation de l'atome}
+
+\begin{columns}
+	\begin{column}{0.3\textwidth}
+		\begin{figure}
+			\center
+			\begin{tikzpicture}[scale=0.5]
+				\shade[ball color = gray!40, opacity = 0.4] (0,0) circle (3cm);
+  				\draw (0,0) circle (3cm);
+  				\draw (-3,0) arc (180:360:3 and 0.6);
+  				\draw[dashed] (3,0) arc (0:180:3 and 0.6);
+			\end{tikzpicture}
+			\caption{Vision de l'atome indivisible}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{0.3\textwidth}
+		\begin{figure}
+			\begin{tikzpicture}[scale=0.5]
+				\shade[ball color = gray!40, opacity = 1] (0,0) circle (1cm);
+  				\draw (0,0,0) circle (1cm);			
+			
+  				\begin{scope}[canvas is zy plane at x=0]
+    					\draw[dashed, green, opacity = .5] (0,0) circle (3cm);
+    					\node[green] at (2.6,-1.5) {\textbullet};
+  				\end{scope}
+
+  				\begin{scope}[canvas is zx plane at y=0]
+    					\draw[dashed, red, opacity = .5] (0,0) circle (3cm);
+    					\node[red] at (2.1,2.1) {\textbullet};
+  				\end{scope}
+
+  				\begin{scope}[canvas is xy plane at z=0]
+    					\draw[dashed, blue, opacity = .5] (0,0) circle (3cm);
+    					\node[blue] at (-2.1,2.1) {\textbullet};
+  				\end{scope}			
+			\end{tikzpicture}
+			\caption{Vision de l'atome de Rutherford}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{img/atome.png} 
+			\caption{Vision de l'atome}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\subsection{Le noyau}
+
+\subsubsection{Les nucléons}
+\begin{frame}{Les nucléons}
+
+\end{frame}
+
+\subsubsection{Les quarks}
+\begin{frame}{Les quarks}
+
+\end{frame}
+
+\subsection{Les leptons}
+
+\begin{frame}{Les leptons}
+	
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{block}{Les leptons chargés}
+				\begin{itemize}
+					\item 
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}{0.45\textwidth}
+			\begin{block}{Les leptons neutres}
+				\begin{itemize}
+					\item 
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+
+\end{frame}
+
+
+\subsection{Bilan des particules}
+\begin{frame}{Vers l’infiniment petit}{Bilan des constituants de la matière et des interactions fondamentales}
+
+\end{frame}
+
+\subsection{L’anti-matière}
+\begin{frame}{Vers l’infiniment petit}{Les nucléons, Les quarks}
+
+\end{frame}
+
+\subsection{L'origine de la Matière ?}
+\begin{frame}{Vers l’infiniment petit}{Le modèle du Big Bang en physique des particules, l'origine de la matière ?}
+
+\end{frame}
+
+%\subsection*{Conclusion}
+\begin{frame}{Vers l’infiniment petit}{Conclusion}
+	\begin{itemize}
+		\item 
+		\pause         
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% L'infiniment grand %%%%%%%%%%%%%%%%%%%%
+
+\section{Vers l’infiniment grand}
+
+\begin{frame}
+\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\subsection{Les 3 Premières minutes}
+\begin{frame}{Vers l’infiniment grand}{Les 3 premières minutes}
+
+\end{frame}
+
+\subsection{Fond Diffus Cosmologique}
+\begin{frame}{Vers l’infiniment grand}{Fond Diffus Cosmologique}
+
+\end{frame}
+
+\subsection{Les premiers trous noirs et les premières étoiles}
+\begin{frame}{Vers l’infiniment grand}{Les premiers trous noirs et les premières étoiles}
+
+\end{frame}
+
+\subsection{Les différentes générations d’étoiles, Diagramme HR}
+
+\begin{frame}{Vers l’infiniment grand}{Les différentes générations d’étoiles, Diagramme HR}
+
+\end{frame}
+
+\subsection{Les réactions astronucléaires, la formation des métaux}
+\begin{frame}{Vers l’infiniment grand}{Les réactions astronucléaires, la formation des métaux}
+
+\end{frame}
+
+\subsection{Bilan sur le modèle Standard de la Cosmologie}
+\begin{frame}{Vers l’infiniment grand}{Bilan sur le modèle Standard de la Cosmologie}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% L'au-delà %%%%%%%%%%%%%%%%%%%%
+
+\section{Vers l’au-delà}
+
+\begin{frame}
+\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\subsection{Problème de la Matière manquant}
+\begin{frame}{Vers l’au-delà}{Problème de la Matière manquant}{La matière baryonique : visible \& invisible}
+
+\end{frame}
+
+\begin{frame}{Vers l’au-delà}{Problème de la Matière manquant}{Matière noire ?}
+
+\end{frame}
+
+\begin{frame}{Vers l’au-delà}{Problème de la Matière manquant}{Gravité modifiée ?}
+
+\end{frame}
+
+\begin{frame}{Vers l’au-delà}{Problème de la Matière manquant}{Hypothèses supplémentaires}
+
+\end{frame}
+
+\subsection{Problème de l’expansion accélérée}
+\begin{frame}{Vers l’au-delà}{Problème de l’expansion accélérée}{Énergie noire, Vide ?}
+
+\end{frame}
+
+\subsection{Problème de la relativité quantique}
+\begin{frame}{Vers l’au-delà}{Problème de la relativité quantique}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Conclusion %%%%%%%%%%%%%%%%%%%%
+
+\section*{Conclusion}
+
+\begin{frame}
+\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\begin{frame}{Conclusion}{Bilan de la présentation}
+
+\end{frame}
+
+\begin{frame}{Conclusion}{Limites de cette présentation}
+
+\end{frame}
+
+\begin{frame}{Conclusion}{État de la Recherche dans ce domaine}
+
+\end{frame}
+
+\begin{frame}{Conclusion}
+Merci de votre attention !
+\end{frame}
+
+% Sommaire
+\begin{frame}{Sommaire}
+	\begin{tiny}
+	\begin{columns}[t]
+		\begin{column}{0.3\textwidth}
+			\tableofcontents[sections=1]
+		\end{column}
+		\begin{column}{0.3\textwidth}
+			\tableofcontents[sections=2]
+		\end{column}
+		\begin{column}{0.3\textwidth}
+			\tableofcontents[sections=3]
+		\end{column}
+	\end{columns}
+	\end{tiny}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Références %%%%%%%%%%%%%%%%%%%%
+
+\section*{Références}
+\begin{frame}[allowframebreaks]{References} 
+	\nocite{*}
+	\bibliographystyle{unsrt} 
+	\bibliography{biblio}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Annexes %%%%%%%%%%%%%%%%%%%%
+
+\section*{Annexes}
+\begin{frame}{Annexes}
+
+
+\end{frame}
+
+\end{document}
