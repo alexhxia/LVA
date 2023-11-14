@@ -1,13 +1,24 @@
-# La physique des 2 infinies
+# La physique des 2 infinis
+
+La physique des 2 infinis c'est l'étude de l'infiniment petit et de l'infiniment grand. Cela peut paraître étrange au premier abord. 
+Comment étudier l'infiniment petit avec un télescope ? Ou l'infiniment grand avec des collisions de particules ? 
+Et pourtant, la physique des 2 infinis est en pleine essor. Car il est nécessaire de connecter les recherches de ces 2 infinis pour comprendre 
+les étoiles, les trous noirs, la matière et l'énergie sombres et ainsi compléter le modèle du Big Bang, et connaître l'Histoire de l'Univers.
+
+Pour cela, nous commencerons par décomposer de la matière jusqu'aux plus petits composants possible, et plus largement nous aborderons 
+le modèle de la physique des particules. Puis nous expliquerons comment et quand ses composants se sont formés dans l'Univers. Et nous 
+conclurons par les recherches actuelles de nouvelle physique.
 
 ## Partie 1 : vers l’infiniment petit
 1. La matière
-1. L’atome, la molécule
-1. Le noyau, l’électron
-1. Les nucléons, Les quarks
-1. Bilan des constituants de la matière et des interactions fondamentales
-1. L’anti-matière
-1. Le modèle du Big Bang en physique des particules, l'origine de la matière ?
+   a. L'atome
+   b. L'électron
+   c. Les Modèles atomiques
+   d. Les Noyaux atomiques
+   e. Bilan 
+3. Le Modèle standard (de la Physique des Particules)
+   a. La Matière
+   b. Les forces
 
 ## Partie 2 : vers l’infiniment grand : L’histoire de l’Univers
 1. Les 3 premières minutes
