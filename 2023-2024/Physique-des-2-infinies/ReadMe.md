@@ -11,14 +11,14 @@ conclurons par les recherches actuelles de nouvelle physique.
 
 ## Partie 1 : vers l’infiniment petit
 1. La matière
-   a. L'atome
-   b. L'électron
-   c. Les Modèles atomiques
-   d. Les Noyaux atomiques
-   e. Bilan 
-3. Le Modèle standard (de la Physique des Particules)
-   a. La Matière
-   b. Les forces
+   - L'atome
+   - L'électron
+   - Les Modèles atomiques
+   - Les Noyaux atomiques
+   - Bilan 
+2. Le Modèle standard (de la Physique des Particules)
+   - La Matière
+   - Les forces
 
 ## Partie 2 : vers l’infiniment grand : L’histoire de l’Univers
 1. Les 3 premières minutes
