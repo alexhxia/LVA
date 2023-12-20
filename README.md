@@ -13,35 +13,87 @@ le modèle de la physique des particules. Puis nous expliquerons comment et quan
 conclurons par les recherches actuelles de nouvelle physique.
 
 ## Partie 1 : vers l’infiniment petit
-1. La matière
+1. La Matière
    - L'atome
-   - L'électron
    - Les Modèles atomiques
+     - L'électron
+     - Modèles de Thomson
+     - Modèle de Rutherford
+     - Modèle de Schrödinger
+     - L'Électromagnétisme
    - Les Noyaux atomiques
-   - Bilan 
-2. Le Modèle standard (de la Physique des Particules)
-   - La Matière
-   - Les forces
+     - Les Nucléons
+     - L'interaction Faible
+     - Tableau de Mendeleïev
+   - Les Nucléons
+     - Les Quarks
+     - L'interaction Forte
+   - Bilan de la Composition de la Matière
+   - Ordre de Grandeur des Composants de la Matière
+2. La Physique des Particules
+   - Le Modèle standard
+   - La Matière/L'anti-Matière
+     - Les Hadrons
+   - Les Interactions fondamentales
+     - Les diagrammes de Feynman
+     - L'interaction EM
+     - L'interaction Faible
+       - avec les bosons W
+       - avec le boson Z
+     - L'interaction Forte
+     - Le Mécanisme de Higgs
+   - Bilan des interaction entre toutes les particules de MS
+  3. CCL : Au delà du MS
 
 ## Partie 2 : vers l’infiniment grand : L’histoire de l’Univers
-1. Les 3 premières minutes
-1. Fond Diffus Cosmologique
-1. Les premiers trous noirs et les premières étoiles
-1. Les différentes générations d’étoiles, Diagramme HR
-1. Les réactions astronucléaires, la formation des métaux
-1. Bilan sur le modèle Standard de la Cosmologie 
+1. L'histoire de l'Univers
+   - Cosmologie Quantique
+     - Le Big Bang
+     - L'ère de Planck
+   - Cosmologie des Particules élémentaires
+     - Naissance de l'espace-temps
+     - L'inflation
+   - Cosmologie Classique
+     - La Cristallisation
+     - Le Plasma de Quark et de Gluon
+     - L'ère hardonique
+     - L'ère leptonique
+     - Le 2nd grand nettoyage
+     - La Nucléosynthèse primordiale
+     - La Recombinaison
+       - Le Fond Diffus Cosmologique
+     - Les 1ères étoiles
+     - La formation des Systèmes planétaires
+     - L'Univers actuel
+       - L'Univers Local
+       - Le Diagramme HR
+     - Bilan
+       - Notre Histoire
+       - Abondance des éléments
+1. Les Nucléosynthèses
+   - Les Rayons cosmiques
+   - La Nucléosynthèse stellaire
+     - Des étoiles peu massives
+     - Des étoiles massives
+   - La Nucléosynthèse explosive
+     - Les Naines blanches
+     - Les Supernovae de type Ia
+     - Les Étoiles à neutrons
+     - Les Pulsars
+     - Les Trous noirs
+   - Bilan sur le Cycle de Vie des Étoiles
+   - Bilan sur les Orignines des Éléments
+1. Les Modèles Cosmologiques
+   - Définitions
+   - MC stationnaire
+   - Modèle de Concordance
+   - CCL : Limites du Modèle
 
-## Partie 3 : vers l’au-delà
-1. Problème de la Matière manquant
-    - La matière baryonique : visible & invisible
-    - Matière noire ?
-    - Gravité modifiée ?
-    - Hypothèses supplémentaires
+## Conclusion : vers l’au-delà
+1. Les Théories de l'Inflation chaotique
+2. Problème de la Matière manquant
 1. Problème de l’expansion accélérée
-    - Énergie noire, Vide ?
-1. (Problème de la relativité quantique)
-
-## Conclusion
-- Bilan de la présentation
-- Limites de cette présentation
-- État de la Recherche dans ce domaine
+1. Backreaction
+2. Destiné de l'Univers
+3. Autres Modèles cosmologiques
+1. Exemples de Recherches à l'IN2P3
