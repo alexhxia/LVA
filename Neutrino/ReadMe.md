@@ -23,13 +23,14 @@ Les Neutrinos sont les constituants de l'Univers les plus mystérieux jamais dé
   - Détection des Neutrinos
   - Nombre de Neutrinos
   - Masse des Neutrinos
-3. Au delà des Modèles Standard (des Particules et de la Cosmologie)
-	- La Vitesse des Neutrinos
+  - 
+## Partie 3 :  Au delà des Modèles Standard (des Particules et de la Cosmologie)
+  - La Vitesse des Neutrinos
   - La Masse des Neutrinos
   - Le Nb de Neutrino : Neutrino stérile
 	- La Nature des Neutrinos
 
-## Partie 3 : Les Neutrinos, des Messagers du Cosmos
+## Partie 4 : Les Neutrinos, des Messagers du Cosmos
 1. Indice pour les Supernovae
 1. Nouvelle vue de notre Galaxie
 2. Messager des Trous noirs actifs galatiques
