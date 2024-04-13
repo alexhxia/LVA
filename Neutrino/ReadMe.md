@@ -23,7 +23,7 @@ Les Neutrinos sont les constituants de l'Univers les plus mystérieux jamais dé
   - Détection des Neutrinos
   - Nombre de Neutrinos
   - Masse des Neutrinos
-  - 
+
 ## Partie 3 :  Au delà des Modèles Standard (des Particules et de la Cosmologie)
   - La Vitesse des Neutrinos
   - La Masse des Neutrinos
