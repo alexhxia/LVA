@@ -17,9 +17,9 @@ Les Neutrinos sont les constituants de l'Univers les plus mystérieux jamais dé
 	    - Vers son postulat
 	    - Vers sa découverte
 1. BA-BA de la Physique des Neutrinos
-	- Sources de Neutrinos
+  - Sources de Neutrinos
   - Propriétés des Neutrinos
-	- Interactions des Neutrinos
+  - Interactions des Neutrinos
   - Détection des Neutrinos
   - Nombre de Neutrinos
   - Masse des Neutrinos
@@ -28,7 +28,7 @@ Les Neutrinos sont les constituants de l'Univers les plus mystérieux jamais dé
   - La Vitesse des Neutrinos
   - La Masse des Neutrinos
   - Le Nb de Neutrino : Neutrino stérile
-	- La Nature des Neutrinos
+  - La Nature des Neutrinos
 
 ## Partie 4 : Les Neutrinos, des Messagers du Cosmos
 1. Indice pour les Supernovae
